@@ -1,8 +1,17 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.1"
-  },
+  "name": "tailwindcssexp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "watch": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch"
+    "watch": "npx tailwindcss -i ./input.css -o ./public/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
   }
 }
